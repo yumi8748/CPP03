@@ -4,7 +4,7 @@
 #include "ClapTrap.hpp"
 
 class FragTrap: public ClapTrap{
-    public:
+    protected:
         FragTrap(const std::string &name);
         ~FragTrap();
         void    guardGate();
