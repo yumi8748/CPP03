@@ -5,7 +5,7 @@
 
 class ScavTrap: public ClapTrap{
     public:
-        ScavTrap(const std::string &name);
+        ScavTrap(const std::string Name);
         ~ScavTrap();
         void    guardGate();
 };

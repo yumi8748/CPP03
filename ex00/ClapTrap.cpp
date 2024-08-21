@@ -1,6 +1,6 @@
 #include "ClapTrap.hpp"
 
-ClapTrap::ClapTrap(const std::string &Name): name(Name), Hit_points(10), Energy_points(10), Attack_damage(0)
+ClapTrap::ClapTrap(const std::string Name): name(Name), Hit_points(10), Energy_points(10), Attack_damage(0)
 {
      std::cout<< "ClapTrap " << name << " Created!" << std::endl;
 }

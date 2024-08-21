@@ -1,7 +1,6 @@
 #include "DiamondTrap.hpp"
 
-DiamondTrap::DiamondTrap(const std::string &name){
-	
+DiamondTrap::DiamondTrap(const std::string name){
 }
 
 DiamondTrap::~DiamondTrap();

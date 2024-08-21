@@ -5,7 +5,7 @@
 
 class FragTrap: public ClapTrap{
     protected:
-        FragTrap(const std::string &name);
+        FragTrap(const std::string name);
         ~FragTrap();
         void    guardGate();
 		void highFivesGuys(void);

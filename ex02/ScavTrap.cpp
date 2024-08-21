@@ -1,6 +1,6 @@
 #include "ScavTrap.hpp"
 
-ScavTrap::ScavTrap(const std::string &name): ClapTrap(name)
+ScavTrap::ScavTrap(const std::string name): ClapTrap(name)
 {
     this->Hit_points = 100;
     this->Energy_points = 50;
@@ -9,7 +9,7 @@ ScavTrap::ScavTrap(const std::string &name): ClapTrap(name)
 }
 
 ScavTrap::~ScavTrap(){
-    std::cout<< "ScavTrap " << Name << " Destroyed!" << std::endl;
+    std::cout<< "ScavTrap " << name << " Destroyed!" << std::endl;
 }
 
 void    ScavTrap::guardGate(){
