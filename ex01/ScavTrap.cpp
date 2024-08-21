@@ -8,6 +8,16 @@ ScavTrap::ScavTrap(const std::string name): ClapTrap(name)
     std::cout << "ScavTrap " << name << " created!" << std::endl;
 }
 
+void ScavTrap::attack(const std::string& target){
+    if (Energy_points > 0 && Hit_points > 0)
+    {
+        Energy_points--;
+        std::cout<< "ScavTrap " << Name << " attacks " << target<< ", causing " << Attack_damage << " points of damage!" << std::endl;
+    }
+    else
+        std::cout << "ScavTrap " << Name << " has no energy or hit points to attack!" << std::endl; 
+}
+
 ScavTrap::~ScavTrap(){
     std::cout<< "ScavTrap " << Name << " Destroyed!" << std::endl;
 }
