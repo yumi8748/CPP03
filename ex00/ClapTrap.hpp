@@ -15,6 +15,7 @@ class ClapTrap{
         ClapTrap();
         ClapTrap(const std::string Name);
         ~ClapTrap();
+		ClapTrap &operator=(const ClapTrap& other);
         
         void attack(const std::string& target);
         void takeDamage(unsigned int amount);

@@ -10,6 +10,11 @@ ClapTrap::~ClapTrap()
     std::cout<< "ClapTrap " << name << " Destroyed!" << std::endl;
 }
 
+ClapTrap &ClapTrap::operator=(const ClapTrap &other)
+{
+ //
+}
+
 void ClapTrap::attack(const std::string& target){
     if (Energy_points > 0 && Hit_points > 0)
     {

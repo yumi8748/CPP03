@@ -19,4 +19,5 @@ void DiamondTrap::whoAmI()
 	std::cout<< "My name is " << this->name << ", and my ClapTrap name is " << this->ClapTrap::Name << std::endl;
 }
 
-//Orthodox Canonical Form！！
+//Orthodox Canonical Form！！ 
+//messages need to be changed??
