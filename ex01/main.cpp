@@ -2,6 +2,7 @@
 #include "ScavTrap.hpp"
 
 int main() {
+    ScavTrap scav1;
     ClapTrap clap("Clappy");
     ScavTrap scav("Scavvy");
 

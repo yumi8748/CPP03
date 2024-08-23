@@ -3,6 +3,7 @@
 #include "FragTrap.hpp"
 
 int main() {
+    FragTrap frag1;
     ClapTrap clap("Clappy");
     ScavTrap scav("Scavvy");
 	FragTrap frag("Fraggy");

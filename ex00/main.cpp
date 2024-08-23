@@ -1,6 +1,7 @@
 #include "ClapTrap.hpp"
 
 int main() {
+    ClapTrap clap1 ;
     ClapTrap clap("Clappy");
 
     clap.attack("target1");

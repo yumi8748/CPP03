@@ -3,10 +3,14 @@
 
 #include "ClapTrap.hpp"
 
-class FragTrap: public ClapTrap{
-    protected:
-        FragTrap(const std::string name);
+class FragTrap: virtual public ClapTrap{
+    public:
+        FragTrap();
+        FragTrap( const FragTrap &other );
+		FragTrap &operator=(const FragTrap& other);
         ~FragTrap();
+
+        FragTrap(const std::string name);
         void    guardGate();
 		void highFivesGuys(void);
 };
